@@ -1,0 +1,28 @@
+{
+  "name": "tello-connect",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "tello",
+    "drone",
+    "dji",
+    "udp",
+    "controller"
+  ],
+  "author": "Jalal AZOUZOUT",
+  "license": "MIT",
+  "dependencies": {
+    "dgram": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "jest": "^29.7.0"
+  },
+  "description": "A Node.js library for controlling DJI Tello drones"
+}
